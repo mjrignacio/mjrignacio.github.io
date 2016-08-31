@@ -510,6 +510,7 @@ p {
 .intro-text {
   font-size: 17px;
   line-height: 32px;
+  text-align: center;
 }
 
 
@@ -3958,7 +3959,7 @@ input[type="tel"]:focus,
 input[type="time"]:focus,
 input[type="url"]:focus,
 textarea:focus {
-  border-color: #bfa67a;
+  border-color: #999;
   outline: none;
   box-shadow: none;
 }
@@ -4102,4 +4103,32 @@ label {
 
 #nav-icon {
     display: none;
+}
+
+/* Custom CSS */
+.register-of-interest {
+    width: 500px; 
+    display: table; 
+    margin: 0 auto; 
+    padding: 100px 100px 0px;
+}
+
+.register-of-interest input[type="submit"] {
+    padding: 10px;
+    border: 2px solid #e3e3e3;
+    background-color: #fff;
+    display: table;
+    margin: 0 auto;
+    width: 100px;
+    transition: all 0.3s;
+}
+
+.register-of-interest input[type="submit"]:hover {
+    color: #000;
+    border-color: #999;
+}
+
+h6 {
+  font-size: 12px;
+  margin-bottom: 20px;
 }
