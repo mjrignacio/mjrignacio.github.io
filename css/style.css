@@ -4107,7 +4107,6 @@ label {
 
 /* Custom CSS */
 .register-of-interest {
-    width: 500px; 
     display: table; 
     margin: 0 auto; 
     padding: 100px 100px 0px;
@@ -4131,4 +4130,20 @@ label {
 h6 {
   font-size: 12px;
   margin-bottom: 20px;
+}
+
+/* #Mobile
+================================================== */
+@media (max-width: 767px) {
+  .register-of-interest {
+      width: 90%; 
+  }
+}
+
+/* #Tablet and Higher
+================================================== */
+@media (min-width: 768px) {
+  .register-of-interest {
+      width: 500px; 
+  }
 }
